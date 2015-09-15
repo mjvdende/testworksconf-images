@@ -1,4 +1,4 @@
-# robot-framework-workshop
+# Testworks confernece image
 Workshop material for Robot Framework Open Kitchen / TestWorksConf session
 
 Prerequisites
@@ -7,8 +7,8 @@ Prerequisites
 
 Given:
 
-    $ git clone https://github.com/xebia/robot-framework-workshop.git 
-    $ cd robot-framework-workshop
+    $ git clone https://github.com/xebia/testworksconf-images.git 
+    $ cd testworksconf-images
 
 When:
 
