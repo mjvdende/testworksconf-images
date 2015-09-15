@@ -1,4 +1,5 @@
-# robot-framework-workshop
+# Testworks confernece image
+
 Workshop material for Robot Framework Open Kitchen / TestWorksConf session
 
 # Creating a new box from the MASTER branch and place contents on USB
@@ -10,11 +11,13 @@ Workshop material for Robot Framework Open Kitchen / TestWorksConf session
   vagrant destroy
   vagrant up
   ```
+  
 3. Test provisioning of the VM. Is everything the way you want it?
-4. Shutdown VM and create a new box
+4. Shutdown VM and export a box
 
   ```
   vagrant package --output robot-framework.box
   ```
+  
 5. Place Vagrantfile from RELEASE-BOX branch and the vagrant box you just created on an USB stick
 
